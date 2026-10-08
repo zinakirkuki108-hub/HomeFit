@@ -1,0 +1,8 @@
+{
+  "name": "HomeFit",
+  "description": "Professional no-equipment home workout mobile app with workout player, personalized plans, Kurdish & English localization, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
