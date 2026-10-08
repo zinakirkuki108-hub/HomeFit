@@ -1,9 +1,9 @@
-# Deploy Vite React application to GitHub Pages
-name: Deploy HomeFit to GitHub Pages
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["main", "master"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Build project
+      - name: Build
         run: npm run build
 
       - name: Setup Pages
